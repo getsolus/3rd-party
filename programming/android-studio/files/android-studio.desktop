@@ -7,4 +7,4 @@ Exec=android-studio %f
 Comment=IDE for Android Development
 Categories=Development;IDE;
 Terminal=false
-StartupWMClass=jetbrains-android-studio
+StartupWMClass=jetbrains-studio
