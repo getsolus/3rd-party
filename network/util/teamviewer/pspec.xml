@@ -6,7 +6,7 @@
         <Homepage>https://www.teamviewer.com/</Homepage>
         <Packager>
             <Name>Automated Packaging</Name>
-            <Email>noreply@solus-project.com</Email>
+            <Email>noreply@getsol.us</Email>
         </Packager>
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
@@ -55,11 +55,8 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/opt/teamviewer*</Path>
-            <Path fileType="data">/usr/share</Path>
             <Path fileType="config">/etc/systemd/system</Path>
             <Path fileType="config">/etc/teamviewer</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="log">/var/log/teamviewer14</Path>
         </Files>
     </Package>
 
