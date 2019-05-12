@@ -10,7 +10,7 @@
         <Summary>Spideroak One, zero knowledge private backup.</Summary>
         <Description>Spideroak one is a reliable, private backup for everything in your life.</Description>
         <License>Custom - https://spideroak.com/policy/terms-of-use</License>
-        <Archive sha1sum="16f43a690f1eaf4192327e03e205aef643864c10" type="binary">https://spideroak.com/share/M5XWYZDFNY/retriever/c%3A/Fetch/SpiderOak One/7.5.0/SpiderOakONE_7.5.0_1_amd64.deb</Archive>
+        <Archive sha1sum="16f43a690f1eaf4192327e03e205aef643864c10" type="binary">https://spideroak.com/share/M5XWYZDFNY/retriever/c%3A/Fetch/SpiderOak%20One/7.5.0/SpiderOakONE_7.5.0_1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>glib2</Dependency>
