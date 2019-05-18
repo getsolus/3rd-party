@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
         <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
-        <Archive sha1sum="fba3e29cfd593bf0f7318a56e39962a91fac347f" type="targz">https://download.jetbrains.com/go/goland-2019.1.1.tar.gz</Archive>
+        <Archive sha1sum="eca70c6acd94ad9b9315bec0f84a4f9d64db1a32" type="targz">https://download.jetbrains.com/go/goland-2019.1.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>goland</Name>
@@ -30,7 +30,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
-    <Update release="9">
+    <Update release="10">
+            <Date>2019-05-18</Date>
+            <Version>2019.1.2</Version>
+            <Comment>Updated to 2019.1.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
+        <Update release="9">
             <Date>2019-04-20</Date>
             <Version>2019.1.1</Version>
             <Comment>Updated to 2019.1.1</Comment>
