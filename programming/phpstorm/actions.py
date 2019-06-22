@@ -4,7 +4,7 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-Build = "191.7141.52"
+Build = "191.7479.51"
 
 def install():
     shutil.rmtree("PhpStorm-%s/jre64" % Build)
