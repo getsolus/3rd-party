@@ -10,13 +10,13 @@ IgnoreAutodep = True
 def setup():
     shelltools.system("ar xf google-earth-pro-stable_%s_amd64.deb" % get.srcVERSION())
     shelltools.system("tar xvf data.tar.xz")
-    shelltools.system("mv opt/google/earth/pro/google-earth-pro.desktop .")
+    shelltools.system("mv opt/google/earth/pro/google-earth-pro.desktop googleearth-bin.desktop")
     
 
 def install():
     pisitools.insinto("/", "opt")
     pisitools.insinto("/usr", "usr/bin")
-    pisitools.insinto("/usr/share/applications", "google-earth-pro.desktop")
+    pisitools.insinto("/usr/share/applications", "googleearth-bin.desktop")
     pisitools.dosym("ld-linux-x86-64.so.2", "/lib/ld-lsb-x86-64.so.3")
     
     for i in ["16", "22", "24", "32", "48", "64", "128", "256"]:
