@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="edc394304a7f40575b16320ee35b6490eaa6b1b1" type="binary">https://downloads.plex.tv/plex-media-server-new/1.16.0.1226-7eb2c8f6f/debian/plexmediaserver_1.16.0.1226-7eb2c8f6f_amd64.deb</Archive>
+        <Archive sha1sum="0e557b049a6bd40f6202cc75c5f9502e84acf26f" type="binary">https://downloads.plex.tv/plex-media-server-new/1.16.1.1291-158e5b199/debian/plexmediaserver_1.16.1.1291-158e5b199_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -33,19 +33,26 @@
     </Package>
 
     <History>
+        <Update release="31">
+            <Date>07-01-2019</Date>
+            <Version>1.16.1.1291</Version>
+            <Comment>Update to 1.16.1.1291</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="30">
             <Date>06-18-2019</Date>
             <Version>1.16.0.1226</Version>
             <Comment>Update to 1.16.0.1226</Comment>
-            <Name>Italo Cantalupo</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
         <Update release="29">
             <Date>06-11-2019</Date>
             <Version>1.15.8.1198</Version>
             <Comment>Update to 1.15.8.1198</Comment>
-            <Name>Italo Cantalupo</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
         <Update release="28">
             <Date>05-25-2019</Date>
