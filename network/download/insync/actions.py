@@ -22,5 +22,4 @@ def setup():
     #    to be packaged for Solus first
 
 def install():
-    pisitools.insinto("/", "etc")
     pisitools.insinto("/", "usr")
