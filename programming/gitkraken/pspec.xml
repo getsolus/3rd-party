@@ -11,7 +11,7 @@
         <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
         <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
         <License>EULA</License>
-        <Archive sha1sum="9a5b57d24be8ad11bb726a721ac748a329ad143b" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
+        <Archive sha1sum="9ea85eea5a2ba4c64fab0b980f21862820cb4039" type="binary">https://release.gitkraken.com/linux/gitkraken-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -35,6 +35,14 @@
     </Package>
 
     <History>
+        <Update release="81">
+            <Date>10-16-2019</Date>
+            <Version>6.3.0</Version>
+            <Comment>Update to 6.3.0</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+
         <Update release="80">
             <Date>09-25-2019</Date>
             <Version>6.2.1</Version>
@@ -194,7 +202,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="60">
             <Date>09-15-2018</Date>
             <Version>4.0.4</Version>
@@ -202,7 +210,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="59">
             <Date>09-11-2018</Date>
             <Version>4.0.3</Version>
@@ -210,7 +218,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="58">
             <Date>08-20-2018</Date>
             <Version>4.0.2</Version>
@@ -218,7 +226,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="57">
             <Date>08-14-2018</Date>
             <Version>4.0.1</Version>
@@ -234,7 +242,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-	    
+        
         <Update release="53">
             <Date>07-14-2018</Date>
             <Version>3.6.6</Version>
@@ -266,7 +274,7 @@
             <Name>Nícholas Lima de Souza Silva</Name>
             <Email>nicholaslima.rw@gmail.com</Email>
         </Update>
-		
+        
         <Update release="49">
             <Date>05-30-2018</Date>
             <Version>3.6.2</Version>
