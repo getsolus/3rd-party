@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="8f2ddfe0bac4c4c994c048976d4fdf8cc785b3de" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_80.0.3962.2-1_amd64.deb</Archive>
+        <Archive sha1sum="87b2f1ec84457937a1fbaa997c4799533843d9ab" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_80.0.3964.0-1_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -42,6 +42,14 @@
     </Package>
 
     <History>
+        <Update release="187">
+            <Date>11-14-2019</Date>
+            <Version>80.0.3964.0</Version>
+            <Comment>Update to 80.0.3964.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="186">
             <Date>11-09-2019</Date>
             <Version>80.0.3962.2</Version>
