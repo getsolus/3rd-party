@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="691eb6ed99695ca5c488643e41430abd8ee03684" type="binary">https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz</Archive>
+        <Archive sha1sum="9488bba7ccac3105c4a0cda049bb49683bc0fdbd" type="binary">https://dl.google.com/dl/android/studio/ide-zips/3.5.3.0/android-studio-ide-191.6010548-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="24">
+            <Date>12-11-2019</Date>
+            <Version>3.5.3.0</Version>
+            <Comment>Update to 3.5.3.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
         <Update release="23">
             <Date>11-04-2019</Date>
             <Version>3.5.2.0</Version>
