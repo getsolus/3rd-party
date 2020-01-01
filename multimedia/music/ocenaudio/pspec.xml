@@ -10,7 +10,7 @@
         <Summary>Ocenaudio is a fast, cross-platform audio editor.</Summary>
         <Description>Ocenaudio is a fast, cross-platform audio editor.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="cc6e4843eabb44eca345efe2dc4a4845093d0efc" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb</Archive>
+        <Archive sha1sum="2c7663880586ad2e35f789b333e1045a1e3a3574" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -32,6 +32,14 @@
     </Package>
 
     <History>
+        <Update release="33">
+            <Date>01-01-2020</Date>
+            <Version>3.7.9</Version>
+            <Comment>Update to 3.7.9</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="32">
             <Date>12-17-2019</Date>
             <Version>3.7.8</Version>
