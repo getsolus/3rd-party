@@ -3,7 +3,7 @@
 from pisi.actionsapi import get, pisitools, shelltools
 
 def setup():
-    shelltools.system("tar xf android-studio-ide-191.6010548-linux.tar.gz")
+    shelltools.system("tar xf android-studio-ide-192.6200805-linux.tar.gz")
 
 def install():
     pisitools.insinto("/opt/android-studio", "android-studio/*")
