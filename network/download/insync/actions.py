@@ -11,6 +11,7 @@ def setup():
     shelltools.system("ar xf insync_{}-*_amd64.deb".format(get.srcVERSION() ) )
     shelltools.system("tar xvf data.tar.gz")
     shelltools.system("mv usr/share/applications/insync.desktop usr/share/applications/insync.py.desktop")
+    shelltools.system("rm usr/bin/insync")
 
     # enable status indicators the in nautilus file manager; requires the package
     #    nautilus-python to be installed (should be installed automatically as
