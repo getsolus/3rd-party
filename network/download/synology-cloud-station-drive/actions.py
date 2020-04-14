@@ -9,7 +9,7 @@ NoStrip = ["/"]
 IgnoreAutodep = True
 
 def setup():
-    shelltools.system("ar xf synology-cloud-station-drive-4450.x86_64.deb")
+    shelltools.system("ar xf synology-cloud-station-drive-4468.x86_64.deb")
     shelltools.system("tar xf data.tar.xz")
 
 def install():
