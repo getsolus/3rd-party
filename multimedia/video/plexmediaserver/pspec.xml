@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="8fe22d8353293816cd3549c46ec0bc8314c0facd" type="binary">https://downloads.plex.tv/plex-media-server-new/1.19.1.2645-ccb6eb67e/debian/plexmediaserver_1.19.1.2645-ccb6eb67e_amd64.deb</Archive>
+        <Archive sha1sum="1b7680dc897a25ba064e272e0cc8ce39f4c2e40e" type="binary">https://downloads.plex.tv/plex-media-server-new/1.19.1.2701-6327e27bf/debian/plexmediaserver_1.19.1.2701-6327e27bf_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -33,6 +33,13 @@
     </Package>
 
     <History>
+        <Update release="56">
+            <Date>04-25-2020</Date>
+            <Version>1.19.1.2701</Version>
+            <Comment>Update to 1.19.1.2701</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="55">
             <Date>04-10-2020</Date>
             <Version>1.19.1.2645</Version>
