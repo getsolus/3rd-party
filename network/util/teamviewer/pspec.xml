@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="53707038e62cd4f902e2da352b5509e8459f5a04" type="binary">https://dl.tvcdn.de/download/linux/version_15x/teamviewer_15.4.4445_amd64.deb</Archive>
+        <Archive sha1sum="0864d12251c190114c6d586ac422e4ff25b61c16" type="binary">https://dl.tvcdn.de/download/linux/version_15x/teamviewer_15.5.3_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -63,8 +63,16 @@
     </Package>
 
     <History>
+        <Update release="32">
+            <Date>04-29-2020</Date>
+            <Version>15.5.3</Version>
+            <Comment>Update to 15.5.3</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
         <Update release="31">
-            <Date>03-24-2019</Date>
+            <Date>03-24-2020</Date>
             <Version>15.4.4445</Version>
             <Comment>Update to 15.4.4445</Comment>
             <Name>Thomas Staudinger</Name>
@@ -72,7 +80,7 @@
         </Update>
 
         <Update release="30">
-            <Date>02-26-2019</Date>
+            <Date>02-26-2020</Date>
             <Version>15.3.2682</Version>
             <Comment>Update to 15.3.2682</Comment>
             <Name>Thomas Staudinger</Name>
@@ -80,7 +88,7 @@
         </Update>
 
         <Update release="29">
-            <Date>01-28-2019</Date>
+            <Date>01-28-2020</Date>
             <Version>15.2.2756</Version>
             <Comment>Update to 15.2.2756</Comment>
             <Name>Thomas Staudinger</Name>
