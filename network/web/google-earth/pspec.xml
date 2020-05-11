@@ -11,7 +11,7 @@
         <Summary>3D interface for satellite imagery from Google</Summary>
         <Description>Google Earth provides a 3D interface for viewing satellite imagery and maps.</Description>
         <License>EULA</License>
-        <Archive sha1sum="61c3908af88050be4d92d7797f1513b01a2e348c" type="binary">https://dl.google.com/dl/linux/direct/google-earth-pro-stable_7.3.3_amd64.deb</Archive>
+        <Archive sha1sum="b48041d3d9d6466f80e0414fbfa6e2599d9eb25d" type="binary">https://dl.google.com/dl/linux/direct/google-earth-pro-stable_7.3.3_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -33,6 +33,14 @@
     </Package>
 
     <History>
+        <Update release="14">
+            <Date>05-11-2020</Date>
+            <Version>7.3.3</Version>
+            <Comment>Update to 7.3.3.7699</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="13">
             <Date>05-03-2020</Date>
             <Version>7.3.3</Version>
