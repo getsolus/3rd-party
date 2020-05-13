@@ -10,7 +10,7 @@
         <Summary>Cloud Station Drive</Summary>
         <Description>Cloud Station Drive is an application which sync files between your computers and Synology NAS via the Internet, so that your data and documents are always up-to-date and stay beside you.</Description>
         <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
-        <Archive sha1sum="4da1744d968293a4dacdb572654a2979e6bc43d8" type="binary">https://global.download.synology.com/download/Tools/CloudStationDrive/4.3.3-4468/Ubuntu/Installer/x86_64/synology-cloud-station-drive-4468.x86_64.deb</Archive>
+        <Archive sha1sum="316436690f29df706463a478f7ef7a898cef810d" type="binary">https://global.download.synology.com/download/Tools/CloudStationDrive/4.3.3-4469/Ubuntu/Installer/x86_64/synology-cloud-station-drive-4469.x86_64.deb</Archive>
         <BuildDependencies>
                 <Dependency>binutils</Dependency>
         </BuildDependencies>   
@@ -24,6 +24,14 @@
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>05-13-2020</Date>
+            <Version>4.3.3.4469</Version>
+            <Comment>Update to 4.3.3-4469</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="9">
             <Date>04-14-2020</Date>
             <Version>4.3.3.4468</Version>
