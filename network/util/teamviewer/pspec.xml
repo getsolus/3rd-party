@@ -19,35 +19,10 @@
 
     <Package>
         <RuntimeDependencies>
-            <Dependency>alsa-lib</Dependency>
-            <Dependency>dbus</Dependency>
-            <Dependency>fontconfig</Dependency>
-            <Dependency>freetype2</Dependency>
-            <Dependency>harfbuzz</Dependency>
-            <Dependency>libcap2</Dependency>
-            <Dependency>libgcc</Dependency>
-            <Dependency>libgcrypt</Dependency>
-            <Dependency>libjpeg-turbo</Dependency>
             <Dependency>libpng12</Dependency>
-            <Dependency>libsm</Dependency>
-            <Dependency>libx11</Dependency>
-            <Dependency>libxau</Dependency>
-            <Dependency>libxdamage</Dependency>
-            <Dependency>libxext</Dependency>
-            <Dependency>libxfixes</Dependency>
-            <Dependency>libxinerama</Dependency>
-            <Dependency>libxrandr</Dependency>
-            <Dependency>libxrender</Dependency>
-            <Dependency>libxtst</Dependency>
-            <Dependency>xz</Dependency>
-            <Dependency>zlib</Dependency>
             <Dependency>qt5-webkit</Dependency>
             <Dependency>qt5-x11extras</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>qt5-declarative</Dependency>
-            <Dependency>qt5-sensors</Dependency>
             <Dependency>qt5-multimedia</Dependency>
-            <Dependency>qt5-webchannel</Dependency>
             <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
