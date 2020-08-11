@@ -10,7 +10,7 @@
         <Summary>A personal finance manager for Mac, Windows and Linux</Summary>
         <Description>A personal finance manager for Mac, Windows and Linux</Description>
         <License>Custom</License>
-        <Archive sha1sum="8fcbe75cff01ad2da9ad52e6518784388c1003df" type="binary">http://infinitekind.com/stabledl/2019.3_1880/moneydance_linux_amd64.deb</Archive>
+        <Archive sha1sum="407acb5416143827f637b7700ad71adacaed9f69" type="binary">http://infinitekind.com/stabledl/2020.0_1919/moneydance_linux_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -32,6 +32,14 @@
     </Package>
 
     <History>
+        <Update release="11">
+            <Date>08-11-2020</Date>
+            <Version>2020.0</Version>
+            <Comment>Update to 2020.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="10">
             <Date>06-20-2019</Date>
             <Version>2019.3</Version>
