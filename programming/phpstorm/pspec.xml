@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PHPStorm - an IDE for the PHP Language</Summary>
         <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
-        <Archive sha1sum="c198609d8d3608f992591b54fcb479ac170a273e" type="targz">https://download.jetbrains.com/webide/PhpStorm-2020.2.tar.gz</Archive>
+        <Archive sha1sum="b72ffe37fb5355b88f2bb6625b659f117a7247ed" type="targz">https://download.jetbrains.com/webide/PhpStorm-2020.2.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>phpstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="53">
+            <Date>2020-08-28</Date>
+            <Version>2020.2.1</Version>
+            <Comment>Updated to 2020.2.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="52">
             <Date>2020-08-01</Date>
             <Version>2020.2</Version>
