@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
         <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
-        <Archive sha1sum="05012659f688cace940f8aa7d68fdd25688ec180" type="targz">https://download.jetbrains.com/ruby/RubyMine-2020.2.tar.gz</Archive>
+        <Archive sha1sum="242f4ffac593d55a0f65ea4aefaefa6833d24a19" type="targz">https://download.jetbrains.com/ruby/RubyMine-2020.2.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rubymine</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="47">
+            <Date>2020-08-28</Date>
+            <Version>2020.2.1</Version>
+            <Comment>Updated to 2020.2.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="46">
             <Date>2020-08-01</Date>
             <Version>2020.2</Version>
