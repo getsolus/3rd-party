@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive sha1sum="20db6bf6a90fd71bef27dd73cccb3ba0fa629478" type="targz">https://download.jetbrains.com/idea/ideaIU-2020.2.tar.gz</Archive>
+        <Archive sha1sum="c552691a87b5d01fa85e67263663d6abf49c9081" type="targz">https://download.jetbrains.com/idea/ideaIU-2020.2.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="58">
+            <Date>2020-08-28</Date>
+            <Version>2020.2.1</Version>
+            <Comment>Updated to 2020.2.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="57">
             <Date>2020-07-31</Date>
             <Version>2020.2</Version>
