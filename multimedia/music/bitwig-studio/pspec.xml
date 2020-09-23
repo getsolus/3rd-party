@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="9339104021c2ade7ed32a64ff2d312c0562526bd" type="binary">https://downloads.bitwig.com/stable/3.2.7/bitwig-studio-3.2.7.deb</Archive>
+        <Archive sha1sum="213b16b80a5903265d650b219ae714cfbba2efd9" type="binary">https://downloads.bitwig.com/stable/3.2.8/bitwig-studio-3.2.8.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -40,6 +40,14 @@
     </Package>
 
     <History>
+        <Update release="29">
+            <Date>09-23-2020</Date>
+            <Version>3.2.8</Version>
+            <Comment>Update to 3.2.8</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
         <Update release="28">
             <Date>08-11-2020</Date>
             <Version>3.2.7</Version>
