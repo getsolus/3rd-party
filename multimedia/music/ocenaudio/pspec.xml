@@ -10,12 +10,11 @@
         <Summary>Ocenaudio is a fast, cross-platform audio editor.</Summary>
         <Description>Ocenaudio is a fast, cross-platform audio editor.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="25a8602898e4bca1999a792a1be25a83b18184f0" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb</Archive>
+        <Archive sha1sum="655b855539deac4729a0125a47fd63fac17b64ea" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian9_64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
-
     <Package>
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
@@ -30,8 +29,14 @@
             <Path fileType="data">/usr/share/mime</Path>
         </Files>
     </Package>
-
     <History>
+        <Update release="55">
+            <Date>12-27-2020</Date>
+            <Version>3.10.1</Version>
+            <Comment>Switch to newer deb archive</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="54">
             <Date>12-22-2020</Date>
             <Version>3.10.1</Version>
@@ -39,7 +44,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="53">
             <Date>12-15-2020</Date>
             <Version>3.10.0</Version>
@@ -47,7 +51,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="52">
             <Date>11-27-2020</Date>
             <Version>3.9.7</Version>
@@ -55,7 +58,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="51">
             <Date>11-25-2020</Date>
             <Version>3.9.6</Version>
@@ -63,7 +65,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="50">
             <Date>10-20-2020</Date>
             <Version>3.9.5</Version>
@@ -71,7 +72,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="49">
             <Date>10-04-2020</Date>
             <Version>3.9.3</Version>
@@ -79,7 +79,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="48">
             <Date>10-01-2020</Date>
             <Version>3.9.2</Version>
@@ -87,7 +86,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="47">
             <Date>09-29-2020</Date>
             <Version>3.9.1</Version>
@@ -95,7 +93,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="46">
             <Date>09-23-2020</Date>
             <Version>3.9.0</Version>
@@ -103,7 +100,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="45">
             <Date>08-27-2020</Date>
             <Version>3.8.1</Version>
@@ -111,7 +107,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="44">
             <Date>08-25-2020</Date>
             <Version>3.8.0</Version>
@@ -119,7 +114,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="43">
             <Date>07-18-2020</Date>
             <Version>3.7.20</Version>
@@ -127,7 +121,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="42">
             <Date>06-30-2020</Date>
             <Version>3.7.19</Version>
@@ -135,7 +128,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="41">
             <Date>06-04-2020</Date>
             <Version>3.7.18</Version>
@@ -143,7 +135,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="40">
             <Date>06-01-2020</Date>
             <Version>3.7.17</Version>
@@ -151,7 +142,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="39">
             <Date>05-24-2020</Date>
             <Version>3.7.16</Version>
@@ -159,7 +149,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="38">
             <Date>05-20-2020</Date>
             <Version>3.7.15</Version>
@@ -167,7 +156,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="37">
             <Date>05-01-2020</Date>
             <Version>3.7.14</Version>
@@ -175,7 +163,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="36">
             <Date>03-17-2020</Date>
             <Version>3.7.12</Version>
@@ -183,7 +170,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="35">
             <Date>03-09-2020</Date>
             <Version>3.7.11</Version>
@@ -191,7 +177,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="34">
             <Date>03-01-2020</Date>
             <Version>3.7.10</Version>
@@ -199,7 +184,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="33">
             <Date>01-01-2020</Date>
             <Version>3.7.9</Version>
@@ -207,7 +191,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="32">
             <Date>12-17-2019</Date>
             <Version>3.7.8</Version>
@@ -215,7 +198,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="31">
             <Date>11-20-2019</Date>
             <Version>3.7.7</Version>
@@ -223,7 +205,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="30">
             <Date>10-26-2019</Date>
             <Version>3.7.6</Version>
@@ -231,7 +212,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="29">
             <Date>10-12-2019</Date>
             <Version>3.7.5</Version>
@@ -239,7 +219,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="28">
             <Date>08-31-2019</Date>
             <Version>3.7.4</Version>
@@ -247,7 +226,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="27">
             <Date>08-16-2019</Date>
             <Version>3.7.3</Version>
@@ -255,7 +233,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="26">
             <Date>07-25-2019</Date>
             <Version>3.7.2</Version>
@@ -263,7 +240,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="25">
             <Date>07-16-2019</Date>
             <Version>3.7.1</Version>
@@ -271,7 +247,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="24">
             <Date>07-09-2019</Date>
             <Version>3.7.0</Version>
@@ -279,7 +254,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="23">
             <Date>05-08-2019</Date>
             <Version>3.6.4</Version>
@@ -287,7 +261,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="22">
             <Date>04-23-2019</Date>
             <Version>3.6.3</Version>
@@ -295,7 +268,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="21">
             <Date>04-04-2019</Date>
             <Version>3.6.2</Version>
@@ -303,7 +275,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="20">
             <Date>03-29-2019</Date>
             <Version>3.6.1</Version>
@@ -311,7 +282,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="19">
             <Date>02-15-2019</Date>
             <Version>3.6.0.1</Version>
@@ -319,7 +289,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="18">
             <Date>12-03-2018</Date>
             <Version>3.5.4.1</Version>
@@ -327,7 +296,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="17">
             <Date>10-25-2018</Date>
             <Version>3.5.3</Version>
@@ -335,7 +303,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="16">
             <Date>10-22-2018</Date>
             <Version>3.5.2</Version>
@@ -343,7 +310,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="15">
             <Date>10-02-2018</Date>
             <Version>3.5.1</Version>
@@ -351,7 +317,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-        
         <Update release="15">
             <Date>08-22-2018</Date>
             <Version>3.4.5</Version>
@@ -359,7 +324,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-        
         <Update release="13">
             <Date>07-22-2018</Date>
             <Version>3.4.3</Version>
@@ -367,7 +331,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-        
         <Update release="12">
             <Date>02-07-2018</Date>
             <Version>3.3.10</Version>
@@ -375,7 +338,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-        
         <Update release="11">
             <Date>06-29-2017</Date>
             <Version>3.2.11</Version>
@@ -383,7 +345,6 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
         <Update release="10">
             <Date>06-09-2017</Date>
             <Version>3.2.9</Version>
@@ -391,7 +352,6 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
         <Update release="9">
             <Date>05-19-2017</Date>
             <Version>3.2.8</Version>
@@ -399,7 +359,6 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
         <Update release="8">
             <Date>05-03-2017</Date>
             <Version>3.2.7</Version>
@@ -407,7 +366,6 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
         <Update release="7">
             <Date>02-05-2017</Date>
             <Version>3.2.2</Version>
@@ -415,7 +373,6 @@
             <Name>Peter O'Connor</Name>
             <Email>sunnyflunk@gmail.com</Email>
         </Update>
-
         <Update release="6">
             <Date>23-09-2016</Date>
             <Version>3.1.10</Version>

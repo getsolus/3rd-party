@@ -11,7 +11,7 @@ Version = get.srcVERSION()
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf ocenaudio_debian64.deb")
+    shelltools.system("ar xf ocenaudio_debian9_64.deb")
     shelltools.system("tar xf data.tar.xz")
 
 def install():
