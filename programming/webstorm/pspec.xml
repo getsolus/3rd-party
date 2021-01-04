@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
-        <Archive sha1sum="1d62f738f79ab024efd0887273a63327df6c5600" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2020.3.tar.gz</Archive>
+        <Archive sha1sum="e5415f645a27c913430d8573856d70c6e017374f" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2020.3.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>webstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="55">
+            <Date>2021-01-04</Date>
+            <Version>2020.3.1</Version>
+            <Comment>Updated to 2020.3.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="54">
             <Date>2020-12-03</Date>
             <Version>2020.3</Version>
