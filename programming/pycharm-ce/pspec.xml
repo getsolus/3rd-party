@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm Community Edition - an IDE for the Python</Summary>
         <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <Archive sha1sum="9b2135906a5c26bbd1b4e23206ecd1a9b9319220" type="targz">https://download.jetbrains.com/python/pycharm-community-2020.3.2.tar.gz</Archive>
+        <Archive sha1sum="ceb82c9fa6e76b9ed81a8e50e55845a06572e1d5" type="targz">https://download.jetbrains.com/python/pycharm-community-2020.3.3.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm-ce</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="54">
+            <Date>2021-02-01</Date>
+            <Version>2020.3.3</Version>
+            <Comment>Updated to 2020.3.3</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="53">
             <Date>2021-01-04</Date>
             <Version>2020.3.2</Version>
