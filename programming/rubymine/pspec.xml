@@ -26,10 +26,18 @@
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/rubymine.desktop">rubymine.desktop</AdditionalFile>
         </AdditionalFiles>
         <RuntimeDependencies>
+            <Dependency>glibc-32bit</Dependency>
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="54">
+            <Date>2021-02-02</Date>
+            <Version>2020.3.2</Version>
+            <Comment>Add missing glibc-32bit rundep</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
+            </Update>
         <Update release="53">
             <Date>2021-02-01</Date>
             <Version>2020.3.2</Version>
