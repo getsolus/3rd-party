@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
         <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
-        <Archive sha1sum="b0b59e59a70dd3ae47e6a95d901b1b674ac1ca6f" type="targz">https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.3.tar.gz</Archive>
+        <Archive sha1sum="1306e8e49bd2232d6af7cecba982c9a9fa92b4c7" type="targz">https://download.jetbrains.com/rider/JetBrains.Rider-2020.3.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rider</Name>
@@ -30,7 +30,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
-      <Update release="40">
+      <Update release="41">
+            <Date>2021-03-22</Date>
+            <Version>2020.3.4</Version>
+            <Comment>Updated to 2020.3.4</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
+        <Update release="40">
             <Date>2021-03-09</Date>
             <Version>2020.3.3</Version>
             <Comment>Updated to 2020.3.3</Comment>
