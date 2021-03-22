@@ -4,7 +4,7 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-Build = "203.7148.54"
+Build = "203.7717.59"
 
 def install():
     pisitools.insinto("/opt/webstorm", "WebStorm-%s/*" % Build)
