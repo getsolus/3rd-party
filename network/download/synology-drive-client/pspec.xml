@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-drive-client</Name>
+        <Packager>
+            <Name>Thomas Faddegon</Name>
+            <Email>thomas@wapnet.nl</Email>
+        </Packager>
+        <Summary>Cloud Drive Client</Summary>
+        <Description>Cloud Drive Client is an application which sync files between your computers and Synology NAS via the Internet, so that your data and documents are always up-to-date and stay beside you.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="b7a45d8e06fdec15a08ee54eb0b95885d430aa1f" type="binary">https://global.download.synology.com/download/Utility/SynologyDriveClient/2.0.4-11112/Ubuntu/Installer/x86_64/synology-drive-client-11112.x86_64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>   
+    </Source>
+
+    <Package>
+        <Name>synology-drive-client</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>05-03-2021</Date>
+            <Version>2.0.4-11112</Version>
+            <Comment>Update to 2.0.4-11112</Comment>
+            <Name>Thomas Faddegon</Name>
+            <Email>thomas@wapnet.nl</Email>
+        </Update>
+    </History>
+</PISI>
