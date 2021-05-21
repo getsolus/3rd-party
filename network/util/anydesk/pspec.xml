@@ -13,6 +13,7 @@
         <Archive sha1sum="1a217a56a2c9bc7cca4c638420953e8c9d16dea9" type="binary">https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
+            <Dependency>zlib-minizip</Dependency>
         </BuildDependencies>
     </Source>
 
@@ -30,6 +31,14 @@
     </Package>
 
     <History>
+        <Update release="28">
+            <Date>04-21-2021</Date>
+            <Version>6.1.1</Version>
+            <Comment>Add zlib-minizip dependency</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="27">
             <Date>04-15-2021</Date>
             <Version>6.1.1</Version>
