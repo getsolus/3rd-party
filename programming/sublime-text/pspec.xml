@@ -2,16 +2,18 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>sublime-text-3</Name>
-        <Homepage>https://www.sublimetext.com/3</Homepage>
+        <Name>sublime-text</Name>
+        <Homepage>https://www.sublimetext.com/</Homepage>
         <Packager>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <Summary>Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
-        <Description> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+        <License>Proprietary</License>
         <License>EULA</License>
-        <Archive sha1sum="76d4ad5bba5e4afa60ca6f5f877ff9c573b39f23" type="binary">https://download.sublimetext.com/sublime-text_build-3211_amd64.deb</Archive>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
+        <Description xml:lang="en"> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+        <Archive sha1sum="b69c7d398f786691b8fda120a32446b29b36d4c1" type="binary">https://download.sublimetext.com/sublime_text_build_4107_x64.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -20,10 +22,18 @@
     </Source>
 
     <Package>
-        <Name>sublime-text-3</Name>
+        <Name>sublime-text</Name>
+        <Summary xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
+        <Description xml:lang="en"> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+        <PartOf>programming</PartOf>
         <Files>
-            <Path fileType="*">/</Path>
+            <Path fileType="data">/opt/sublime_text</Path>
+            <Path fileType="data">/usr/bin/sublime_text</Path>
+            <Path fileType="data">/usr/share/applications/sublime_text.desktop</Path>
         </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/sublime_text.desktop">sublime_text.desktop</AdditionalFile>
+        </AdditionalFiles>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -31,6 +41,13 @@
     </Package>
 
     <History>
+        <Update release="10">
+            <Date>26-05-2021</Date>
+            <Version>4107</Version>
+            <Comment>Update to 4.0.0 Build 4107</Comment>
+            <Name>Abhinav Kulshreshtha</Name>
+            <Email>AbhinavOther@gmail.com</Email>
+        </Update>
         <Update release="9">
             <Date>10-01-19</Date>
             <Version>3211</Version>
