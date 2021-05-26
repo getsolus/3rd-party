@@ -11,5 +11,3 @@ def setup():
 def install():
     pisitools.insinto("/opt/sublime_text", "sublime_text/*")
     pisitools.dosym("/opt/sublime_text/sublime_text", "/usr/bin/sublime_text")
-    pisitools.dosym("/opt/sublime_text/sublime_text", "/usr/bin/subl")
-
