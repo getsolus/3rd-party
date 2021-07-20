@@ -8,7 +8,7 @@ Exec=/opt/sublime_text/sublime_text %F
 Terminal=false
 MimeType=text/plain;
 Icon=sublime-text
-Categories=TextEditor;Development;
+Categories=TextEditor;Development;Programming;
 StartupNotify=true
 Actions=new-window;new-file;
 
