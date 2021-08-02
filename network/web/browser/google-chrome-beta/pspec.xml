@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="8e0b2e81a1cde02a4e3a20c7db6708880b1fb924" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_91.0.4472.77-1_amd64.deb</Archive>
+        <Archive sha1sum="3c3194cea2071512d3b907882a86fb36aacbfa60" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_93.0.4577.18-1_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -41,6 +41,78 @@
     </Package>
 
     <History>
+        <Update release="283">
+            <Date>07-30-2021</Date>
+            <Version>93.0.4577.18</Version>
+            <Comment>Update to 93.0.4577.18</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="282">
+            <Date>07-21-2021</Date>
+            <Version>92.0.4515.107</Version>
+            <Comment>Update to 92.0.4515.107</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="281">
+            <Date>07-15-2021</Date>
+            <Version>92.0.4515.101</Version>
+            <Comment>Update to 92.0.4515.101</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="280">
+            <Date>07-08-2021</Date>
+            <Version>92.0.4515.93</Version>
+            <Comment>Update to 92.0.4515.93</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="279">
+            <Date>07-03-2021</Date>
+            <Version>92.0.4515.80</Version>
+            <Comment>Update to 92.0.4515.80</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="278">
+            <Date>06-25-2021</Date>
+            <Version>92.0.4515.70</Version>
+            <Comment>Update to 92.0.4515.70</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="277">
+            <Date>06-17-2021</Date>
+            <Version>92.0.4515.59</Version>
+            <Comment>Update to 92.0.4515.59</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="276">
+            <Date>06-11-2021</Date>
+            <Version>92.0.4515.51</Version>
+            <Comment>Update to 92.0.4515.51</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="275">
+            <Date>06-04-2021</Date>
+            <Version>92.0.4515.40</Version>
+            <Comment>Update to 92.0.4515.40</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
         <Update release="274">
             <Date>05-25-2021</Date>
             <Version>91.0.4472.77</Version>

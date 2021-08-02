@@ -13,7 +13,6 @@ def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf bitwig-studio-%s.deb" % Version)
     shelltools.system("tar xf data.tar.xz")
-    shelltools.system("rm usr/share/applications/bitwig-studio.desktop")
 
 def install():
     pisitools.insinto("/", "opt")

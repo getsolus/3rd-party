@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="3a07f5b165aa882e573f262aa87523299216c642" type="binary">https://downloads.bitwig.com/stable/3.3.7/bitwig-studio-3.3.7.deb</Archive>
+        <Archive sha1sum="2c380b05224faab498199c4378dd8465b90de8b3" type="binary">https://downloads.bitwig.com/stable/4.0.1/bitwig-studio-4.0.1.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -24,10 +24,6 @@
             <Path fileType="data">/opt</Path>
             <Path fileType="data">/usr/share</Path>
         </Files>
-        <AdditionalFiles>
-            <AdditionalFile owner="root" permission="0755" target="/usr/bin/bitwig-wrapper">bitwig-wrapper</AdditionalFile>
-            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/Bitwig Studio.desktop">Bitwig Studio.desktop</AdditionalFile>
-        </AdditionalFiles>
         <RuntimeDependencies>
             <Dependency>alsa-lib</Dependency>
             <Dependency>jack-audio-connection-kit</Dependency>
@@ -40,6 +36,22 @@
     </Package>
 
     <History>
+        <Update release="36">
+            <Date>07-21-2021</Date>
+            <Version>4.0.1</Version>
+            <Comment>Update to 4.0.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
+        <Update release="35">
+            <Date>06-01-2021</Date>
+            <Version>3.3.10</Version>
+            <Comment>Update to 3.3.10</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
+
         <Update release="34">
             <Date>04-03-2021</Date>
             <Version>3.3.7</Version>
