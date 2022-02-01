@@ -10,7 +10,7 @@
         <Summary>Plex Media Server</Summary>
         <Description>Plex Media Server</Description>
         <License>Custom - https://plex.tv/legal</License>
-        <Archive sha1sum="58b2accdabc0e03209041b71253cdc2e853f54e6" type="binary">https://downloads.plex.tv/plex-media-server-new/1.25.3.5409-f11334058/debian/plexmediaserver_1.25.3.5409-f11334058_amd64.deb</Archive>
+        <Archive sha1sum="54626ffe9188d0dcc795baef9105d29ae444b5b2" type="binary">https://downloads.plex.tv/plex-media-server-new/1.25.4.5468-989df2310/debian/plexmediaserver_1.25.4.5468-989df2310_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -33,6 +33,13 @@
 
     <History>
         <Update release="102">
+            <Date>02-01-2022</Date>
+            <Version>1.25.4.5468</Version>
+            <Comment>Update to 1.25.4.5468</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+        <Update release="101">
             <Date>01-15-2022</Date>
             <Version>1.25.3.5409</Version>
             <Comment>Update to 1.25.3.5409</Comment>
