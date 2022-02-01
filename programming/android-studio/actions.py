@@ -3,7 +3,7 @@
 from pisi.actionsapi import get, pisitools, shelltools
 
 def setup():
-    shelltools.system("tar xf android-studio-2020.3.1.22-linux.tar.gz")
+    shelltools.system("tar xf android-studio-%s-linux.tar.gz" % get.srcVERSION())
 
 def install():
     pisitools.insinto("/opt/android-studio", "android-studio/*")
