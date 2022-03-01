@@ -12,6 +12,8 @@ def setup():
     shelltools.system("tar xvf data.tar.gz")
     shelltools.system("mv usr/share/applications/insync.desktop usr/share/applications/insync.py.desktop")
     shelltools.system("rm usr/bin/insync")
+    #Remove empty folders that cause conflicts with hicolor-icon-theme
+    shelltools.system("rmdir usr/share/icons/hicolor/{16x16,32x32}/emblems")
 
     # enable status indicators the in nautilus file manager; requires the package
     #    nautilus-python to be installed (should be installed automatically as
