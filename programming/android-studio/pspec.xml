@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="e8153f17029bbe65060e21fe856cbf378a815e81" type="binary">https://dl.google.com/dl/android/studio/ide-zips/2021.1.1.21/android-studio-2021.1.1.21-linux.tar.gz</Archive>
+        <Archive sha1sum="b250974b5c72c42857d2c6c09addefcb9da83824" type="binary">https://dl.google.com/dl/android/studio/ide-zips/2021.1.1.22/android-studio-2021.1.1.22-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="42">
+            <Date>03-02-2022</Date>
+            <Version>2021.1.1.22</Version>
+            <Comment>Update to 2021.1.1.22</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>staudi.kaos@gmail.com</Email>
+        </Update>
         <Update release="41">
             <Date>02-06-2022</Date>
             <Version>2021.1.1.21</Version>
