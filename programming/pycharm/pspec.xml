@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
         <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
-        <Archive sha1sum="a4ab7fd8d14385baf0e217b1f3ad38f5b5e3f4ab" type="targz">https://download.jetbrains.com/python/pycharm-professional-2021.3.1.tar.gz</Archive>
+        <Archive sha1sum="62c465e430ccb445ddc31f3aba67bac6e391fe1d" type="targz">https://download.jetbrains.com/python/pycharm-professional-2021.3.3.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="70">
+            <Date>2022-03-19</Date>
+            <Version>2021.3.3</Version>
+            <Comment>Updated to 2021.3.3</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="69">
             <Date>2022-01-01</Date>
             <Version>2021.3.1</Version>
