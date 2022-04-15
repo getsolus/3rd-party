@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">CLion - an IDE for the C Language</Summary>
         <Description xml:lang="en">CLion - an IDE for the C Language</Description>
-        <Archive sha1sum="9468fcf132e1f85b8cc2ba26301bbca2ad7ae78d" type="targz">https://download.jetbrains.com/cpp/CLion-2021.3.4.tar.gz</Archive>
+        <Archive sha1sum="02fcfad55f5f411ac4a942a15cf23644b4959a68" type="targz">https://download.jetbrains.com/cpp/CLion-2022.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>clion</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="71">
+            <Date>2022-04-15</Date>
+            <Version>2022.1</Version>
+            <Comment>Updated to 2022.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="70">
             <Date>2022-03-19</Date>
             <Version>2021.3.4</Version>
