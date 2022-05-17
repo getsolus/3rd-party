@@ -13,12 +13,18 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
         <Description xml:lang="en"> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
-        <Archive sha1sum="8f77495f5750ef86cc0d29cb6ba155cd031ce604" type="binary">https://download.sublimetext.com/sublime_text_build_4113_x64.tar.xz</Archive>
+        <Archive sha1sum="28f8aa2811a85d1d25798c1b4905d3f4a3afd051" type="binary">https://download.sublimetext.com/sublime_text_build_4126_x64.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
+        <Conflicts>
+            <Package>sublime-text-3</Package>
+        </Conflicts>
+        <Replaces>
+            <Package>sublime-text-3</Package>
+        </Replaces>
     </Source>
 
     <Package>
@@ -38,18 +44,28 @@
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
+        <Conflicts>
+            <Package>sublime-text-3</Package>
+        </Conflicts>
     </Package>
 
     <History>
+        <Update release="12">
+            <Date>04-13-2022</Date>
+            <Version>4126</Version>
+            <Comment>Update to ST4 Build 4126</Comment>
+            <Name>Abhinav Kulshreshtha</Name>
+            <Email>AbhinavOther@gmail.com</Email>
+        </Update>
         <Update release="11">
-            <Date>18-07-2021</Date>
+            <Date>07-18-2021</Date>
             <Version>4113</Version>
             <Comment>Update to ST4 Build 4113</Comment>
             <Name>Abhinav Kulshreshtha</Name>
             <Email>AbhinavOther@gmail.com</Email>
         </Update>
         <Update release="10">
-            <Date>26-05-2021</Date>
+            <Date>05-26-2021</Date>
             <Version>4107</Version>
             <Comment>Update to 4.0.0 Build 4107</Comment>
             <Name>Abhinav Kulshreshtha</Name>
