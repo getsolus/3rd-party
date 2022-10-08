@@ -4,7 +4,7 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-Build = "222.4167.33"
+Build = "222.4345.15"
 
 def install():
     pisitools.insinto("/opt/phpstorm", "PhpStorm-%s/*" % Build)
