@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="08901e16b87ce078f15dd1bb3896b31c844f3e56" type="binary">https://downloads.bitwig.com/stable/4.3.9/bitwig-studio-4.3.9.deb</Archive>
+        <Archive sha1sum="7d6c2ebcd5c71e9793260cd44b3dd0b53db4504c" type="binary">https://downloads.bitwig.com/stable/4.4/bitwig-studio-4.4.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -36,6 +36,14 @@
     </Package>
 
     <History>
+        <Update release="53">
+            <Date>10-13-2022</Date>
+            <Version>4.4</Version>
+            <Comment>Update to 4.4</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="52">
             <Date>10-07-2022</Date>
             <Version>4.3.9</Version>
