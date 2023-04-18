@@ -1,7 +1,7 @@
 Third Party Apps (DEPRECATED)
 =============================
 
-**Note**: This repo will not accept NEW packages as we are replacing the majority of them in Solus with Snaps. After we have Snaps integrated in the Software Center we will begin forceful deprecation of this repository.
+**Note**: This repo will not accept NEW packages as we are replacing the majority of them in Solus with a modern solution like flatpak. After we have flatpak integrated in the Software Center we will begin forceful deprecation of this repository.
 
 This repo contains the build files required to create packages that cannot be redistributed, whether for licensing restrictions or otherwise.
 
