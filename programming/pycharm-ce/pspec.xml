@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm Community Edition - an IDE for the Python</Summary>
         <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <Archive sha1sum="d9c7dbbfdbf7df822979aa1087dd420f8aecb0c8" type="targz">https://download.jetbrains.com/python/pycharm-community-2023.1.tar.gz</Archive>
+        <Archive sha1sum="0ef440e7c54153bb03c9893cbeb704b4060dd027" type="targz">https://download.jetbrains.com/python/pycharm-community-2023.1.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm-ce</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="83">
+            <Date>2023-05-21</Date>
+            <Version>2023.1.2</Version>
+            <Comment>Updated to 2023.1.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="82">
             <Date>2023-04-01</Date>
             <Version>2023.1</Version>
