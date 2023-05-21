@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>sublime-text-3</Name>
+        <Name>sublime-text</Name>
         <Homepage>https://www.sublimetext.com/</Homepage>
         <Packager>
             <Name>Joshua Strobl</Name>
@@ -22,7 +22,7 @@
     </Source>
 
     <Package>
-        <Name>sublime-text-3</Name>
+        <Name>sublime-text</Name>
         <Summary xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
         <Description xml:lang="en"> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
         <PartOf>programming</PartOf>
@@ -33,6 +33,9 @@
             <Path fileType="data">/usr/share/applications/sublime_text.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/*/sublime-text.png</Path>
         </Files>
+        <Replaces>
+            <Package>sublime-text-3</Package>
+        </Replaces>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -40,6 +43,13 @@
     </Package>
 
     <History>
+        <Update release="13">
+            <Date>05-22-2023</Date>
+            <Version>4143</Version>
+            <Comment>Rename package</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
         <Update release="12">
             <Date>11-13-2022</Date>
             <Version>4143</Version>
@@ -47,7 +57,6 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
         <Update release="11">
             <Date>09-04-2022</Date>
             <Version>4126</Version>
