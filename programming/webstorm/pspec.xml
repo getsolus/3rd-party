@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
-        <Archive sha1sum="3999f7243b3d830039231df93b0f6794d98126ff" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2023.1.4.tar.gz</Archive>
+        <Archive sha1sum="067a9e0ac77bb344cb12d516cd8566947bc56a3d" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2023.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>webstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="89">
+            <Date>2023-07-30</Date>
+            <Version>2023.2</Version>
+            <Comment>Updated to 2023.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="88">
             <Date>2023-07-15</Date>
             <Version>2023.1.4</Version>
