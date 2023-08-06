@@ -13,7 +13,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Summary>
         <Description xml:lang="en"> Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
-        <Archive sha1sum="facb6921755e50b7d2b6e0f8d42389676ba0bd31" type="tarxz">https://download.sublimetext.com/sublime_text_build_4143_x64.tar.xz</Archive>
+        <Archive sha1sum="81d63d6259f43a5c464f57b0032269078c612485" type="tarxz">https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -43,6 +43,14 @@
     </Package>
 
     <History>
+        <Update release="14">
+            <Date>08-06-2023</Date>
+            <Version>4152</Version>
+            <Comment>Update to 4152</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="13">
             <Date>05-22-2023</Date>
             <Version>4143</Version>
