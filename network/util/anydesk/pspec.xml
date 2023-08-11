@@ -10,7 +10,7 @@
         <Summary>AnyDesk is a remote desktop application</Summary>
         <Description>AnyDesk is a remote desktop application</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="9616916a484ae8effc2f80c84950b42cfe1fd92f" type="binary">https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb</Archive>
+        <Archive sha1sum="1a7ee551bda6452b86daccade97471f842127450" type="binary">https://download.anydesk.com/linux/anydesk_6.3.0-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>zlib-minizip</Dependency>
@@ -31,6 +31,14 @@
     </Package>
 
     <History>
+        <Update release="31">
+            <Date>08-11-2023</Date>
+            <Version>6.3.0</Version>
+            <Comment>Update to 6.3.0</Comment>
+            <Name>Troy Harvey</Name>
+            <Email>harveydevel@gmail.com</Email>
+        </Update>
+
         <Update release="30">
             <Date>11-03-2022</Date>
             <Version>6.2.1</Version>
