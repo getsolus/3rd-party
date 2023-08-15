@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="8d4e853803de9daddb718be8bbb65538be6991e1" type="binary">https://downloads.slack-edge.com/releases/linux/4.33.84/prod/x64/slack-desktop-4.33.84-amd64.deb</Archive>
+        <Archive sha1sum="53359c42c82268f30c0fa546fa1b5b8bb0094a68" type="binary">https://downloads.slack-edge.com/releases/linux/4.33.90/prod/x64/slack-desktop-4.33.90-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,14 @@
     </Package>
 
     <History>
+        <Update release="71">
+            <Date>08-15-2023</Date>
+            <Version>4.33.90</Version>
+            <Comment>Update to 4.33.90</Comment>
+            <Name>Troy Harvey</Name>
+            <Email>harveydevel@gmail.com</Email>
+        </Update>
+
         <Update release="70">
             <Date>08-11-2023</Date>
             <Version>4.33.84</Version>
