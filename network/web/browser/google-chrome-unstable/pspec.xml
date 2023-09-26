@@ -3,7 +3,7 @@
 <PISI>
     <Source>
         <Name>google-chrome-unstable</Name>
-        <Homepage>http://www.google.com/chrome</Homepage>
+        <Homepage>https://www.google.com/chrome</Homepage>
         <Packager>
             <Name>Automated Packaging</Name>
             <Email>noreply@solus-project.com</Email>

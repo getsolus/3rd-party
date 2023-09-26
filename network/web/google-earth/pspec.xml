@@ -3,7 +3,7 @@
 <PISI>
     <Source>
         <Name>google-earth</Name>
-        <Homepage>http://www.google.com/earth</Homepage>
+        <Homepage>https://www.google.com/earth</Homepage>
         <Packager>
             <Name>Peter O'Connor</Name>
             <Email>sunnyflunk@gmail.com</Email>
