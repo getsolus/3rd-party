@@ -5,11 +5,11 @@ Third Party Apps (DEPRECATED)
 
 This repo contains the build files required to create packages that cannot be redistributed, whether for licensing restrictions or otherwise.
 
-For more information about 3rd party applications in Solus, visit our Help Center page at https://getsol.us/articles/software/third-party/en/.
+For more information about 3rd party applications in Solus, visit our Help Center page at https://help.getsol.us/docs/user/software/third-party/.
 
 ## Updating and building a package
 
-A script to update the `pspec.xml` for a Third Party App is included in our ["common" repository](https://dev.getsol.us/source/common/) under `/common/Scripts/ep-update.py`
+A script to update the `pspec.xml` for a Third Party App is included in the `common` folder of our ["packages" repository](https://github.com/getsolus/packages) under `/common/Scripts/ep-update.py`
 
 To update an app to a new version you can use the following command
 ```
