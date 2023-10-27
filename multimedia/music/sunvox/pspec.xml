@@ -10,7 +10,7 @@
         <Summary>Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker).</Summary>
         <Description>Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker).</Description>
         <License>Custom</License>
-        <Archive sha1sum="ec4feb50db3a67a77c9ae836ac8c2971b8b4a5aa" type="binary">https://warmplace.ru/soft/sunvox/sunvox-2.1c.zip</Archive>
+        <Archive sha1sum="d24638a211fd6405173e7494504477fe8a274c34" type="binary">https://warmplace.ru/soft/sunvox/sunvox-2.1.1.zip</Archive>
 
         <BuildDependencies>
             <Dependency>unzip</Dependency>
@@ -35,6 +35,14 @@
     </Package>
 
     <History>
+        <Update release="18">
+            <Date>10-27-2023</Date>
+            <Version>2.1.1</Version>
+            <Comment>Update to 2.1.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="17">
             <Date>03-23-2023</Date>
             <Version>2.1c</Version>
