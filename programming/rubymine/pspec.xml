@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
         <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
-        <Archive sha1sum="cd9e1e746c8cbb04aff8ed68e0700f10bd684024" type="targz">https://download.jetbrains.com/ruby/RubyMine-2023.2.3.tar.gz</Archive>
+        <Archive sha1sum="f22c44c1fa4d6e82f360ba5ad2c01687ba1022ce" type="targz">https://download.jetbrains.com/ruby/RubyMine-2023.2.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rubymine</Name>
@@ -31,6 +31,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="91">
+            <Date>2023-10-28</Date>
+            <Version>2023.2.4</Version>
+            <Comment>Updated to 2023.2.4</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="90">
             <Date>2023-10-14</Date>
             <Version>2023.2.3</Version>
