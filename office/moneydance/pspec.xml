@@ -10,7 +10,7 @@
         <Summary>A personal finance manager for Mac, Windows and Linux</Summary>
         <Description>A personal finance manager for Mac, Windows and Linux</Description>
         <License>Custom</License>
-        <Archive sha1sum="d51a028aa89f723bbfc0f0628f30e1f2ee2c56b1" type="binary">https://infinitekind.com/stabledl/current/moneydance_linux_amd64.deb</Archive>
+        <Archive sha1sum="a857dea2f971e7c0a2af53055eee2b70549c9055" type="binary">https://infinitekind.com/stabledl/current/moneydance_linux_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -27,11 +27,18 @@
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/moneydance.desktop">moneydance.desktop</AdditionalFile>
         </AdditionalFiles>
         <RuntimeDependencies>
-            <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
     </Package>
 
     <History>
+        <Update release="24">
+            <Date>12-09-2023</Date>
+            <Version>2023.3</Version>
+            <Comment>Update to 2023.3</Comment>
+            <Name>Troy Harvey</Name>
+            <Email>harveydevel@gmail.com</Email>
+        </Update>
+
         <Update release="23">
             <Date>04-09-2023</Date>
             <Version>2023.1</Version>
