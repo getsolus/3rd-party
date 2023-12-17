@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
         <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
-        <Archive sha1sum="6f090dcc5396e8adb6fd4edbdac9041387824233" type="targz">https://download.jetbrains.com/idea/ideaIU-2023.3.tar.gz</Archive>
+        <Archive sha1sum="c0c6eda768dbd93fe5ca8947eb94d92ab7f45032" type="targz">https://download.jetbrains.com/idea/ideaIU-2023.3.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>idea</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="104">
+            <Date>2023-12-17</Date>
+            <Version>2023.3.1</Version>
+            <Comment>Updated to 2023.3.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="103">
             <Date>2023-12-09</Date>
             <Version>2023.3</Version>
