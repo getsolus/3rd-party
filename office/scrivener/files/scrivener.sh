@@ -34,5 +34,5 @@ LD_LIBRARY_PATH=$libdir
 export LD_LIBRARY_PATH
 unset QT_PLUGIN_PATH
 #export QT_DEBUG_PLUGINS=1  
-export LD_PRELOAD=/usr/lib64/libfreetype.so
+export LD_PRELOAD=/usr/lib64/libfreetype.so.6
 exec "$bindir/Scrivener" ${1+"$@"}
