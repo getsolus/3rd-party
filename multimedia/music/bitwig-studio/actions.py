@@ -12,7 +12,7 @@ Version = get.srcVERSION()
 def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf bitwig-studio-%s.deb" % Version)
-    shelltools.system("tar xf data.tar.xz")
+    shelltools.system("tar xf data.tar.zst")
 
 def install():
     pisitools.insinto("/", "opt")
