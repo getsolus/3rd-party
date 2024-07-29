@@ -10,7 +10,7 @@
         <Summary>An instant messaging and VoIP app for various mobile operating systems.</Summary>
         <Description>An instant messaging and VoIP app for various mobile operating systems.</Description>
         <License>Custom</License>
-    <Archive sha1sum="24e6f3c7395e08d677016b8a6e1af257ff237377" type="binary">https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb</Archive>
+    <Archive sha1sum="53e9e1e28812976647c74f1811a639c1086a78c1" type="binary">https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb</Archive>
     <BuildDependencies>
         <Dependency>binutils</Dependency>
     </BuildDependencies>
@@ -28,6 +28,14 @@
     </Package>
 
     <History>
+        <Update release="12">
+            <Date>07-29-2024</Date>
+            <Version>23.2.0.3</Version>
+            <Comment>Update to 23.2.0.3</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="11">
             <Date>01-26-2024</Date>
             <Version>21.8.0.11</Version>
