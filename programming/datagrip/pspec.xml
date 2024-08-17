@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">DataGrip - an IDE for the SQL Language</Summary>
         <Description xml:lang="en">DataGrip - an IDE for the SQL Language</Description>
-        <Archive sha1sum="ef62ac11687124c038487066ab07807bda87eeb1" type="targz">https://download.jetbrains.com/datagrip/datagrip-2024.1.4.tar.gz</Archive>
+        <Archive sha1sum="02362e7b0b2f28b86357498afb9bf3c650e3f695" type="targz">https://download.jetbrains.com/datagrip/datagrip-2024.2.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>datagrip</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="97">
+            <Date>2024-08-17</Date>
+            <Version>2024.2.1</Version>
+            <Comment>Updated to 2024.2.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="96">
             <Date>2024-06-16</Date>
             <Version>2024.1.4</Version>
