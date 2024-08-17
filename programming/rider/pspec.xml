@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
         <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
-        <Archive sha1sum="f1782e773396911c8fe9e595c107487443f90dd5" type="targz">https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.5.tar.gz</Archive>
+        <Archive sha1sum="1f7650ca02ba41b9445dae198a22ee8325aed114" type="targz">https://download.jetbrains.com/rider/JetBrains.Rider-2024.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>rider</Name>
