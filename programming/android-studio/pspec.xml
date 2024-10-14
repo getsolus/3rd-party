@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="5ec212cf5979d6ad0ba8634bcbb36f6cc2b16502" type="targz">https://dl.google.com/dl/android/studio/ide-zips/2024.2.1.9/android-studio-2024.2.1.9-linux.tar.gz</Archive>
+        <Archive sha1sum="b80cbff5eeb3b08292d65aa0f0ef820de03fd635" type="targz">https://dl.google.com/dl/android/studio/ide-zips/2024.2.1.10/android-studio-2024.2.1.10-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="73">
+            <Date>10-15-2024</Date>
+            <Version>2024.2.1.10</Version>
+            <Comment>Update to 2024.2.1.10</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="72">
             <Date>10-03-2024</Date>
             <Version>2024.2.1.9</Version>
