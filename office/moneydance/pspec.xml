@@ -10,7 +10,7 @@
         <Summary>A personal finance manager for Mac, Windows and Linux</Summary>
         <Description>A personal finance manager for Mac, Windows and Linux</Description>
         <License>Custom</License>
-        <Archive sha1sum="3fbc3ca7fdb825035fd163ba1dcc3fd412b8fba7" type="binary">https://infinitekind.com/stabledl/2024/moneydance_linux_amd64.deb</Archive>
+        <Archive sha1sum="f9da6133205fa802a8d7220c0f51f4bae7b19a17" type="binary">https://infinitekind.com/stabledl/2024/moneydance_linux_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -31,6 +31,14 @@
     </Package>
 
     <History>
+        <Update release="27">
+            <Date>10-23-2024</Date>
+            <Version>2024.2</Version>
+            <Comment>Update to 2024.2</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="26">
             <Date>07-31-2024</Date>
             <Version>2024.1</Version>
