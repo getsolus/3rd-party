@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm Community Edition - an IDE for the Python</Summary>
         <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <Archive sha1sum="6a142f6d105ca41f92bca0f897341333e270b54b" type="targz">https://download.jetbrains.com/python/pycharm-community-2024.2.4.tar.gz</Archive>
+        <Archive sha1sum="59b6bbbc06f91f8616f62f3f57526703bba67cd3" type="targz">https://download.jetbrains.com/python/pycharm-community-2024.3.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm-ce</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="109">
+            <Date>2024-11-16</Date>
+            <Version>2024.3</Version>
+            <Comment>Updated to 2024.3</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="108">
             <Date>2024-10-26</Date>
             <Version>2024.2.4</Version>
