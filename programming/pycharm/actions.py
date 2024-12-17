@@ -8,4 +8,4 @@ Version =  get.srcVERSION()
 
 def install():
     pisitools.insinto("/opt/pycharm", "pycharm-%s/*" % Version)
-    pisitools.dosym("/opt/pycharm/bin/pycharm.sh", "/usr/bin/pycharm")
+    pisitools.dosym("/opt/pycharm/bin/pycharm", "/usr/bin/pycharm")
