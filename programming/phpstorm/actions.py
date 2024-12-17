@@ -4,8 +4,8 @@ from pisi.actionsapi import get, pisitools, shelltools
 import shutil
 
 WorkDir = "."
-Build = "243.21565.202"
+Build = "243.22562.164"
 
 def install():
     pisitools.insinto("/opt/phpstorm", "PhpStorm-%s/*" % Build)
-    pisitools.dosym("/opt/phpstorm/bin/phpstorm.sh", "/usr/bin/phpstorm")
+    pisitools.dosym("/opt/phpstorm/bin/phpstorm", "/usr/bin/phpstorm")
