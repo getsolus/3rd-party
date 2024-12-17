@@ -9,4 +9,4 @@ MainRelease = ".".join(Version.split(".")[0:2])
 
 def install():
     pisitools.insinto("/opt/rubymine", "RubyMine-%s/*" % Version)
-    pisitools.dosym("/opt/rubymine/bin/rubymine.sh", "/usr/bin/rubymine")
+    pisitools.dosym("/opt/rubymine/bin/rubymine", "/usr/bin/rubymine")
