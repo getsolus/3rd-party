@@ -8,4 +8,4 @@ Version =  get.srcVERSION()
 
 def install():
     pisitools.insinto("/opt/goland", "GoLand-*/*")
-    pisitools.dosym("/opt/goland/bin/goland.sh", "/usr/bin/goland")
+    pisitools.dosym("/opt/goland/bin/goland", "/usr/bin/goland")
