@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=RubyMine
-Icon=/opt/rubymine/bin/RMlogo.svg
+Icon=/opt/rubymine/bin/rubymine.svg
 Exec=rubymine %f
 Comment=The Drive to Develop
 Categories=Development;IDE;
