@@ -18,6 +18,9 @@ def install():
     pisitools.insinto("/usr/", "./usr/*")
     pisitools.insinto("/etc/systemd/system", "./opt/teamviewer/tv_bin/script/teamviewerd.service")
 
+    # Remove outaded/incompatible qt libs
+    pisitools.removeDir("/opt/teamviewer/tv_bin/RTlib/qt/lib")
+
     #necessary symlinks
     pisitools.dosym("/etc/systemd/system/teamviewerd.service", "/etc/systemd/system/multi-user.target.wants/teamviewerd.service")
     pisitools.dosym("/opt/teamviewer/tv_bin/desktop/teamviewer_256.png", "/usr/share/pixmaps/teamviewer.png")
