@@ -5,8 +5,8 @@
         <Name>sublime-text</Name>
         <Homepage>https://www.sublimetext.com/</Homepage>
         <Packager>
-            <Name>Ajang Supardi</Name>
-            <Email>ajang@duck.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>Proprietary</License>
         <License>EULA</License>
@@ -34,7 +34,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/*/sublime-text.png</Path>
         </Files>
         <Replaces>
-            <Package>sublime-text-4</Package>
+            <Package>sublime-text-3</Package>
         </Replaces>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
