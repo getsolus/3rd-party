@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # Created For Solus Operating System
 
@@ -13,6 +13,7 @@ def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf scrivener-%s-amd64.deb" % Version)
     shelltools.system("tar xf data.tar.gz")
+    shelltools.system("asciify usr")
     shelltools.system("mkdir usr/share/icons/hicolor")
     pisitools.move("usr/share/icons/*x*", "usr/share/icons/hicolor/")
     shelltools.system("rm usr/share/scrivener/bin/scrivener.sh")
