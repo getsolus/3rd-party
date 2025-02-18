@@ -12,19 +12,17 @@
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
         <Archive sha1sum="1c2225b741dd38e813889e24b5bf3d640d69fa90" type="binary">https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.62.4_amd64.deb</Archive>
-        <BuildDependencies>
-            <Dependency>binutils</Dependency>
-        </BuildDependencies>
     </Source>
 
     <Package>
         <RuntimeDependencies>
             <Dependency>libpng12</Dependency>
             <Dependency>minizip-ng</Dependency>
-            <Dependency>qt5-webkit</Dependency>
-            <Dependency>qt5-x11extras</Dependency>
             <Dependency>qt5-multimedia</Dependency>
             <Dependency>qt5-quickcontrols</Dependency>
+            <Dependency>qt5-webengine</Dependency>
+            <Dependency>qt5-webkit</Dependency>
+            <Dependency>qt5-x11extras</Dependency>
         </RuntimeDependencies>
         <Name>teamviewer</Name>
         <Icon>teamviewer</Icon>
@@ -39,6 +37,14 @@
     </Package>
 
     <History>
+        <Update release="101">
+            <Date>02-18-2025</Date>
+            <Version>15.62.4</Version>
+            <Comment>Add missing dependency</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="100">
             <Date>02-09-2025</Date>
             <Version>15.62.4</Version>
