@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
         <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
-        <Archive sha1sum="72954cd2a29febceb40ca08773464ace57179e45" type="targz">https://download.jetbrains.com/python/pycharm-professional-2024.3.3.tar.gz</Archive>
+        <Archive sha1sum="be5ac6383ea220eda20c5b5b3e65dbd05ea1fd39" type="targz">https://download.jetbrains.com/python/pycharm-professional-2024.3.4.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="117">
+            <Date>2025-03-01</Date>
+            <Version>2024.3.4</Version>
+            <Comment>Updated to 2024.3.4</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="116">
             <Date>2025-02-16</Date>
             <Version>2024.3.3</Version>
