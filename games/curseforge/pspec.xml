@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>curseforge</Name>
+        <Packager>
+            <Name>Maxim Sorkin</Name>
+            <Email>msork.uni2004@gmail.com</Email>
+        </Packager>
+        <Summary>The CurseForge Electron App</Summary>
+        <Description>The CurseForge Electron App</Description>
+        <License>Copyright (c) 2025 Overwolf. All rights reserved.</License>
+        <Archive sha1sum="4ac102f3bc7bbcb3a2648013320ac3126d941ce0" type="binary">file://~/Downloads/curseforge-updater/curseforge-1.279.0~26201-26201.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>curseforge</Name>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/opt</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libgtk-3</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>libnss</Dependency>
+            <Dependency>libxtst</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>at-spi2</Dependency>
+            <Dependency>util-linux</Dependency>
+            <Dependency>libsecret</Dependency>
+        </RuntimeDependencies>
+
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>06-17-2025</Date>
+            <Version>1.279.0~26201-26201</Version>
+            <Comment>Add curseforge to repo</Comment>
+            <Name>Maxim Sorkin</Name>
+            <Email>msork.uni2004@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
