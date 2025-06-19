@@ -11,7 +11,7 @@
         <Summary>The downright luxurious Git client, for Windows, Mac and Linux</Summary>
         <Description>The downright luxurious Git client, for Windows, Mac and Linux</Description>
         <License>EULA</License>
-        <Archive sha1sum="f33e0c386a8827716f93e0bcce2c3b3738e218a3" type="binary">https://release.gitkraken.com/linux/GitKraken-v11.1.1.deb</Archive>
+        <Archive sha1sum="b6a456d00160057bc3f450d224504c73bff91f82" type="binary">https://release.gitkraken.com/linux/GitKraken-v11.2.0.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -35,6 +35,14 @@
     </Package>
 
     <History>
+        <Update release="174">
+            <Date>06-19-2025</Date>
+            <Version>11.2.0</Version>
+            <Comment>Update to 11.2.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="173">
             <Date>05-15-2025</Date>
             <Version>11.1.1</Version>
