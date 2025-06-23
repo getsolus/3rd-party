@@ -14,6 +14,7 @@
         <Archive sha1sum="e3d214b8510a54d5363679a9ea31fee303435f63" type="binary">https://www.literatureandlatte.com/scrivenerforlinux/scrivener-1.9.0.1-amd64.deb</Archive>
 
         <BuildDependencies>
+            <Dependency>asciify</Dependency>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
