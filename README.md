@@ -19,10 +19,15 @@ e.g.
 ```
 ep-update.py 9.5.0 https://release.gitkraken.com/linux/gitkraken-amd64.deb
 ```
-After that you can build the package with
+To keep things compatible with the Python 3 version of `eopkg` it's recommended to install `python-eopkg` and build your package using the following command
 ```
-sudo eopkg bi --ignore-safety pspec.xml
+sudo eopkg.py3 bi --ignore-safety pspec.xml
 ```
+Alternatively you can build it using the (deprecated) Python 2 version with
+```
+sudo eopkg.py2 bi --ignore-safety pspec.xml
+```
+
 This will create an `.eopkg` package that you can install and test
 
 DO NOT PUSH THESE BINARY PACKAGES, only the changes to `pspec.xml` (and if necessary `actions.py`).
