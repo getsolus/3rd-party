@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
-        <Archive sha1sum="b50496cc5a41a5ffcd1a2daec258f444abab4e78" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2025.1.4.1.tar.gz</Archive>
+        <Archive sha1sum="861f9ddbd9e8cf0d77d8ce47ceaea15e98b063f1" type="targz">https://download.jetbrains.com/webstorm/WebStorm-2025.2.tar.gz</Archive>
     </Source>
     <Package>
         <Name>webstorm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="126">
+            <Date>2025-08-09</Date>
+            <Version>2025.2</Version>
+            <Comment>Updated to 2025.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="125">
             <Date>2025-07-26</Date>
             <Version>2025.1.4.1</Version>
