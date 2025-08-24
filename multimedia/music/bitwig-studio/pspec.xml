@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="f76f5098b5dc2738c7ac492bcb21e34d247794cc" type="binary">https://www.bitwig.com/dl/Bitwig%20Studio/5.3.12/installer_linux/bitwig-studio-5.3.12.deb</Archive>
+        <Archive sha1sum="ed19572d1a5159b2619403c8af1da1cdd7943c22" type="binary">https://www.bitwig.com/dl/Bitwig%20Studio/5.3.13/installer_linux/bitwig-studio-5.3.13.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -35,6 +35,14 @@
     </Package>
 
     <History>
+        <Update release="83">
+            <Date>08-24-2025</Date>
+            <Version>5.3.13</Version>
+            <Comment>Update to 5.3.13</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="82">
             <Date>07-09-2025</Date>
             <Version>5.3.12</Version>
