@@ -10,7 +10,7 @@
         <Summary>Ocenaudio is a fast, cross-platform audio editor.</Summary>
         <Description>Ocenaudio is a fast, cross-platform audio editor.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="efa8a2103199147bc7258276b224756647484832" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_ubuntu24.04.deb?version=v3.16</Archive>
+        <Archive sha1sum="05265aa68e86471e48e11e40a7b0209c52ecea9e" type="binary">https://www.ocenaudio.com/downloads/index.php/ocenaudio_ubuntu24.04.deb?version=v3.16.1</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -30,6 +30,14 @@
         </Files>
     </Package>
     <History>
+        <Update release="125">
+            <Date>10-25-2025</Date>
+            <Version>3.16.1</Version>
+            <Comment>Update to 3.16.1</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="124">
             <Date>10-05-2025</Date>
             <Version>3.16</Version>
