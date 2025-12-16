@@ -10,7 +10,7 @@
         <Summary>Team communication for the 21st century.</Summary>
         <Description>Team communication for the 21st century.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="bcdb7a008725bdfc3954348b3789a8a90b1652c1" type="binary">https://downloads.slack-edge.com/desktop-releases/linux/x64/4.46.101/slack-desktop-4.46.101-amd64.deb</Archive>
+        <Archive sha1sum="e833968c6e02e5e4efee6c0af157bf6dd478c7ef" type="binary">https://downloads.slack-edge.com/desktop-releases/linux/x64/4.47.69/slack-desktop-4.47.69-amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -37,6 +37,14 @@
     </Package>
 
     <History>
+        <Update release="96">
+            <Date>12-16-2025</Date>
+            <Version>4.47.69</Version>
+            <Comment>Update to 4.47.69</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="95">
             <Date>10-25-2025</Date>
             <Version>4.46.101</Version>
