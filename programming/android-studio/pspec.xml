@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="06b9346e92add4a0064cf33da4033de5eae80b65" type="targz">https://dl.google.com/dl/android/studio/ide-zips/2025.2.2.7/android-studio-2025.2.2.7-linux.tar.gz</Archive>
+        <Archive sha1sum="e8111a2aaf1e78f20257f85bff38b9b49d8a8176" type="targz">https://dl.google.com/dl/android/studio/ide-zips/2025.2.2.8/android-studio-2025.2.2.8-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="91">
+            <Date>01-09-2026</Date>
+            <Version>2025.2.2.8</Version>
+            <Comment>Update to 2025.2.2.8</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="90">
             <Date>12-10-2025</Date>
             <Version>2025.2.2.7</Version>
