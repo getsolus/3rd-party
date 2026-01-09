@@ -11,7 +11,7 @@
         <Summary>TeamViewer</Summary>
         <Description>Elegantly simple and extremely fast remote support, remote access, online collaboration and meetings; these are the tools for an interconnected world limited only by your imagination.</Description>
         <License>https://www.teamviewer.com/en/eula/</License>
-        <Archive sha1sum="8a7230221056b055b3ab968ec24a3f445cfb3d9f" type="binary">https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.73.3_amd64.deb</Archive>
+        <Archive sha1sum="e06cb7369809f1876d28ab44df25e35bc3f13504" type="binary">https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.73.5_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -40,6 +40,14 @@
     </Package>
 
     <History>
+        <Update release="115">
+            <Date>01-09-2026</Date>
+            <Version>15.73.5</Version>
+            <Comment>Update to 15.73.5</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="114">
             <Date>12-16-2025</Date>
             <Version>15.73.3</Version>
