@@ -10,7 +10,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
         <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
-        <Archive sha1sum="f35da2ba7fc197ee68efefbe4e24c87521d6f6c7" type="targz">https://download.jetbrains.com/python/pycharm-2026.1.tar.gz</Archive>
+        <Archive sha1sum="a43701b3c680a4bfbfd4b27561be36aab7d169f3" type="targz">https://download.jetbrains.com/python/pycharm-2026.1.1.tar.gz</Archive>
     </Source>
     <Package>
         <Name>pycharm</Name>
@@ -30,6 +30,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="141">
+            <Date>2026-05-04</Date>
+            <Version>2026.1.1</Version>
+            <Comment>Updated to 2026.1.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="140">
             <Date>2026-04-07</Date>
             <Version>2026.1</Version>
