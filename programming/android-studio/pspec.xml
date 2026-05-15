@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="b7f9398a982ceaeac842b6f03aa4c45ba01583e4" type="targz">https://dl.google.com/android/studio/ide-zips/2025.3.2.6/android-studio-panda2-linux.tar.gz</Archive>
+        <Archive sha1sum="59d0f276bc8a83955667ed8eead2d97dced8087f" type="targz">https://dl.google.com/android/studio/ide-zips/2025.3.4.7/android-studio-panda4-patch1-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="95">
+            <Date>05-15-2026</Date>
+            <Version>2025.3.4.7</Version>
+            <Comment>Update to 2025.3.4.7</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="94">
             <Date>03-15-2026</Date>
             <Version>2025.3.2.6</Version>
