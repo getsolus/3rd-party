@@ -10,7 +10,7 @@
         <Summary>Music production system for production, remixing and performance.</Summary>
         <Description>Music production system for production, remixing and performance.</Description>
         <License>Custom - https://www.bitwig.com/en/impressum.html</License>
-        <Archive sha1sum="d8089e2795d58219eba360c88dd3593fb8a00e08" type="binary">https://www.bitwig.com/dl/Bitwig%20Studio/6.0/installer_linux/bitwig-studio-6.0.deb</Archive>
+        <Archive sha1sum="13260e6d6bbe8f4229ebca80246687594a10e4c2" type="binary">https://www.bitwig.com/dl/Bitwig%20Studio/6.0.6/installer_linux/bitwig-studio-6.0.6.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -35,6 +35,14 @@
     </Package>
 
     <History>
+        <Update release="85">
+            <Date>05-15-2026</Date>
+            <Version>6.0.6</Version>
+            <Comment>Update to 6.0.6</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="84">
             <Date>03-15-2026</Date>
             <Version>6.0</Version>
