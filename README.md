@@ -21,7 +21,7 @@ ep-update.py 9.5.0 https://release.gitkraken.com/linux/gitkraken-amd64.deb
 ```
 To build your package install `python-eopkg` and use the following command
 ```
-sudo eopkg.py3 bi --ignore-safety pspec.xml
+sudo eopkg.py bi --ignore-safety pspec.xml
 ```
 
 This will create an `.eopkg` package that you can install and test
