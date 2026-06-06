@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="59d0f276bc8a83955667ed8eead2d97dced8087f" type="targz">https://dl.google.com/android/studio/ide-zips/2025.3.4.7/android-studio-panda4-patch1-linux.tar.gz</Archive>
+        <Archive sha1sum="008715dfe669d2d4c3541b27b6bab90fc0eb9f8a" type="targz">https://dl.google.com/android/studio/ide-zips/2026.1.1.8/android-studio-quail1-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="96">
+            <Date>06-06-2026</Date>
+            <Version>2026.1.1.8</Version>
+            <Comment>Update to 2026.1.1.8</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="95">
             <Date>05-15-2026</Date>
             <Version>2025.3.4.7</Version>
