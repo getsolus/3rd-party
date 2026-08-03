@@ -12,7 +12,7 @@ Version = get.srcVERSION()
 def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf ocenaudio_ubuntu24.04.deb")
-    shelltools.system("tar xf data.tar.zst")
+    shelltools.system("tar xf data.tar.xz")
 
 def install():
     pisitools.insinto("/", "usr")
