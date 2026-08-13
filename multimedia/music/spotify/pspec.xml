@@ -10,14 +10,14 @@
         <Summary>Spotify Music, Video and Podcast Streaming Client.</Summary>
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.</Description>
         <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
-        <Archive sha1sum="183625e6b5f9b6e9ced848c3e6e918712cb1dc82" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.92.147.g5b8f9367_amd64.deb</Archive>
-
+        <Archive sha1sum="c61d8978ad842181e230e8a23385d6c9bacd50da" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.95.453.g0eeebbed_amd64.deb</Archive>
+        
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>libxscrnsaver</Dependency>
         </BuildDependencies>
     </Source>
-
+    
     <Package>
         <Name>spotify</Name>
         <Files>
@@ -31,10 +31,18 @@
             <Dependency>gconf</Dependency>
             <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
-
+        
     </Package>
-
+    
     <History>
+            <Update release="100">
+            <Date>08-12-2026</Date>
+            <Version>1.2.95.453</Version>
+            <Comment>Update to 1.2.95.453</Comment>
+            <Name>Lucas Victor</Name>
+            <Email>lucasvictor999@outlook.com.br</Email>
+        </Update>
+        
         <Update release="99">
             <Date>07-11-2026</Date>
             <Version>1.2.92.147</Version>
@@ -42,7 +50,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="98">
             <Date>06-06-2026</Date>
             <Version>1.2.90.451</Version>
@@ -50,7 +58,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="97">
             <Date>05-15-2026</Date>
             <Version>1.2.86.502</Version>
@@ -58,7 +66,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="96">
             <Date>03-15-2026</Date>
             <Version>1.2.84.476</Version>
@@ -66,7 +74,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="95">
             <Date>02-10-2026</Date>
             <Version>1.2.82.428</Version>
@@ -74,7 +82,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="94">
             <Date>01-15-2026</Date>
             <Version>1.2.79.427</Version>
@@ -82,7 +90,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="93">
             <Date>01-09-2026</Date>
             <Version>1.2.79.425</Version>
@@ -90,7 +98,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="92">
             <Date>11-30-2025</Date>
             <Version>1.2.77.358</Version>
@@ -98,7 +106,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="91">
             <Date>10-25-2025</Date>
             <Version>1.2.74.477</Version>
@@ -106,7 +114,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="90">
             <Date>05-20-2025</Date>
             <Version>1.2.63.394</Version>
@@ -114,7 +122,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="89">
             <Date>04-08-2025</Date>
             <Version>1.2.60.564</Version>
@@ -122,7 +130,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="88">
             <Date>03-13-2025</Date>
             <Version>1.2.59.514</Version>
@@ -130,7 +138,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="87">
             <Date>02-13-2025</Date>
             <Version>1.2.56.502</Version>
@@ -138,7 +146,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="86">
             <Date>01-16-2025</Date>
             <Version>1.2.53.440</Version>
@@ -146,7 +154,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="85">
             <Date>12-22-2024</Date>
             <Version>1.2.52.442</Version>
@@ -154,7 +162,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="84">
             <Date>11-24-2024</Date>
             <Version>1.2.50.335</Version>
@@ -162,7 +170,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="83">
             <Date>10-23-2024</Date>
             <Version>1.2.48.405</Version>
@@ -170,7 +178,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="82">
             <Date>09-27-2024</Date>
             <Version>1.2.47.364</Version>
@@ -178,7 +186,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="81">
             <Date>09-19-2024</Date>
             <Version>1.2.45.454</Version>
@@ -186,7 +194,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="80">
             <Date>08-27-2024</Date>
             <Version>1.2.42.290</Version>
@@ -194,7 +202,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="79">
             <Date>07-24-2024</Date>
             <Version>1.2.42.290</Version>
@@ -202,7 +210,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="78">
             <Date>06-25-2024</Date>
             <Version>1.2.40.599</Version>
@@ -210,7 +218,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="77">
             <Date>05-20-2024</Date>
             <Version>1.2.37.701</Version>
@@ -218,7 +226,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="76">
             <Date>02-23-2024</Date>
             <Version>1.2.31.1205</Version>
@@ -226,7 +234,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="75">
             <Date>12-08-2023</Date>
             <Version>1.2.26.1187</Version>
@@ -234,7 +242,7 @@
             <Name>Troy Harvey</Name>
             <Email>harveydevel@gmail.com</Email>
         </Update>
-
+        
         <Update release="74">
             <Date>10-11-2023</Date>
             <Version>1.2.22.982</Version>
@@ -242,7 +250,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="73">
             <Date>09-11-2023</Date>
             <Version>1.2.20.1210</Version>
@@ -250,7 +258,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="72">
             <Date>07-01-2023</Date>
             <Version>1.2.13.661</Version>
@@ -258,7 +266,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="71">
             <Date>05-31-2023</Date>
             <Version>1.2.11.916</Version>
@@ -266,7 +274,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="70">
             <Date>04-20-2023</Date>
             <Version>1.2.9.743</Version>
@@ -274,7 +282,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="69">
             <Date>04-09-2023</Date>
             <Version>1.2.8.923</Version>
@@ -282,7 +290,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="68">
             <Date>03-28-2023</Date>
             <Version>1.2.7.1277</Version>
@@ -290,7 +298,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="67">
             <Date>11-17-2022</Date>
             <Version>1.1.84.716</Version>
@@ -298,7 +306,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="66">
             <Date>04-27-2022</Date>
             <Version>1.1.84.716</Version>
@@ -306,7 +314,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="65">
             <Date>03-03-2022</Date>
             <Version>1.1.80.699</Version>
@@ -314,7 +322,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="64">
             <Date>11-13-2021</Date>
             <Version>1.1.72.439</Version>
@@ -322,7 +330,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="63">
             <Date>09-22-2021</Date>
             <Version>1.1.68.632</Version>
@@ -330,7 +338,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="62">
             <Date>09-20-2021</Date>
             <Version>1.1.68.628</Version>
@@ -338,7 +346,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="61">
             <Date>09-02-2021</Date>
             <Version>1.1.67.586</Version>
@@ -346,7 +354,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="60">
             <Date>04-09-2021</Date>
             <Version>1.1.56.595</Version>
@@ -354,7 +362,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="59">
             <Date>03-24-2021</Date>
             <Version>1.1.55.498</Version>
@@ -362,7 +370,7 @@
             <Name>Bryan T. Meyers</Name>
             <Email>bryan@getsol.us</Email>
         </Update>
-
+        
         <Update release="58">
             <Date>03-19-2021</Date>
             <Version>1.1.55.494</Version>
@@ -370,7 +378,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="57">
             <Date>09-17-2020</Date>
             <Version>1.1.42.622</Version>
@@ -378,7 +386,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="56">
             <Date>03-02-2020</Date>
             <Version>1.1.26.501</Version>
@@ -386,7 +394,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="55">
             <Date>02-22-2020</Date>
             <Version>1.1.26.501</Version>
@@ -394,7 +402,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="54">
             <Date>02-07-2020</Date>
             <Version>1.1.10.546</Version>
@@ -402,7 +410,7 @@
             <Name>Alexander Koskovich</Name>
             <Email>zvnexus@outlook.com</Email>
         </Update>
-
+        
         <Update release="53">
             <Date>01-25-2020</Date>
             <Version>1.1.10.546</Version>
@@ -410,7 +418,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="52">
             <Date>07-17-2019</Date>
             <Version>1.1.10.546</Version>
@@ -418,7 +426,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="51">
             <Date>04-30-2019</Date>
             <Version>1.1.5.153</Version>
@@ -426,7 +434,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="50">
             <Date>02-15-2019</Date>
             <Version>1.1.0.237</Version>
@@ -434,7 +442,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="49">
             <Date>01-28-2019</Date>
             <Version>1.0.98.78</Version>
@@ -442,7 +450,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="48">
             <Date>01-12-2019</Date>
             <Version>1.0.96.181</Version>
@@ -450,7 +458,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>staudi.kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="47">
             <Date>12-03-2018</Date>
             <Version>1.0.94.262</Version>
@@ -458,7 +466,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="46">
             <Date>10-25-2018</Date>
             <Version>1.0.92.390</Version>
@@ -466,7 +474,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="45">
             <Date>09-15-2018</Date>
             <Version>1.0.89.313</Version>
@@ -474,7 +482,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="44">
             <Date>08-22-2018</Date>
             <Version>1.0.88.353</Version>
@@ -482,7 +490,7 @@
             <Name>Thomas Staudinger</Name>
             <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
-
+        
         <Update release="43">
             <Date>05-31-2018</Date>
             <Version>1.0.80.480</Version>
@@ -490,7 +498,7 @@
             <Name>Nícholas Lima de Souza Silva</Name>
             <Email>nicholaslima.rw@gmail.com</Email>
         </Update>
-
+        
         <Update release="42">
             <Date>04-23-2018</Date>
             <Version>1.0.77.338</Version>
@@ -498,7 +506,7 @@
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>
         </Update>
-
+        
         <Update release="41">
             <Date>04-15-2018</Date>
             <Version>1.0.77.338</Version>
@@ -506,7 +514,7 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
+        
         <Update release="40">
             <Date>03-01-2018</Date>
             <Version>1.0.72.117</Version>
@@ -521,7 +529,7 @@
             <Name>Aszrul Aszrie</Name>
             <Email>aszrul_aszrie@hotmail.com</Email>
         </Update>
-
+        
         <Update release="38">
             <Date>11-22-2017</Date>
             <Version>1.0.69.336</Version>
@@ -529,7 +537,7 @@
             <Name>ahahn94</Name>
             <Email>ahahn94@outlook.com</Email>
         </Update>
-
+        
         <Update release="37">
             <Date>11-22-2017</Date>
             <Version>1.0.67.582</Version>
@@ -537,7 +545,7 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
+        
         <Update release="36">
             <Date>10-26-2017</Date>
             <Version>1.0.66.478</Version>
@@ -545,7 +553,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="35">
             <Date>10-01-2017</Date>
             <Version>1.0.64.407</Version>
@@ -553,7 +561,7 @@
             <Name>Jérôme Groven</Name>
             <Email>jerome.groven@gmail.com</Email>
         </Update>
-
+        
         <Update release="34">
             <Date>09-28-2017</Date>
             <Version>1.0.64.401</Version>
@@ -561,7 +569,7 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
+        
         <Update release="33">
             <Date>07-20-2017</Date>
             <Version>1.0.59.395</Version>
@@ -569,7 +577,7 @@
             <Name>Bryan T. Meyers</Name>
             <Email>bmeyers@solus-project.com</Email>
         </Update>
-
+        
         <Update release="32">
             <Date>06-23-2017</Date>
             <Version>1.0.57.474</Version>
@@ -577,7 +585,7 @@
             <Name>Peter O'Connor</Name>
             <Email>peter@solus-project.com</Email>
         </Update>
-
+        
         <Update release="31">
             <Date>05-24-2017</Date>
             <Version>1.0.55.487</Version>
@@ -585,7 +593,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="30">
             <Date>04-14-2017</Date>
             <Version>1.0.53.758</Version>
@@ -593,7 +601,7 @@
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Update>
-
+        
         <Update release="29">
             <Date>03-26-2017</Date>
             <Version>1.0.52.717</Version>
@@ -601,7 +609,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="28">
             <Date>02-25-2017</Date>
             <Version>1.0.49.125</Version>
@@ -609,7 +617,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="27">
             <Date>02-11-2017</Date>
             <Version>1.0.48.103</Version>
@@ -617,7 +625,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="26">
             <Date>01-31-2017</Date>
             <Version>1.0.48.103</Version>
@@ -625,7 +633,7 @@
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Update>
-
+        
         <Update release="25">
             <Date>12-26-2016</Date>
             <Version>1.0.44.100</Version>
@@ -633,7 +641,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="24">
             <Date>12-21-2016</Date>
             <Version>1.0.45.186</Version>
@@ -641,7 +649,7 @@
             <Name>Stefan Ric</Name>
             <Email>stfric369@gmail.com</Email>
         </Update>
-
+        
         <Update release="23">
             <Date>12-16-2016</Date>
             <Version>1.0.45.182</Version>
@@ -649,7 +657,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="22">
             <Date>12-02-2016</Date>
             <Version>1.0.43.125</Version>
@@ -657,7 +665,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="21">
             <Date>11-29-2016</Date>
             <Version>1.0.43.123</Version>
@@ -665,7 +673,7 @@
             <Name>Bryan T. Meyers</Name>
             <Email>bmeyers@datadrake.com</Email>
         </Update>
-
+        
         <Update release="20">
             <Date>11-25-2016</Date>
             <Version>1.0.43.123</Version>
@@ -673,7 +681,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="19">
             <Date>11-10-2016</Date>
             <Version>1.0.42.151</Version>
@@ -681,7 +689,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="18">
             <Date>09-24-2016</Date>
             <Version>1.0.38.171</Version>
@@ -689,7 +697,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="17">
             <Date>09-03-2016</Date>
             <Version>1.0.37.152</Version>
@@ -697,7 +705,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="16">
             <Date>08-12-2016</Date>
             <Version>1.0.36.120</Version>
@@ -705,7 +713,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="15">
             <Date>08-06-2016</Date>
             <Version>1.0.34.146</Version>
@@ -713,7 +721,7 @@
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
         </Update>
-
+        
         <Update release="14">
             <Date>08-04-2016</Date>
             <Version>1.0.33.106</Version>
@@ -721,7 +729,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="13">
             <Date>06-27-2016</Date>
             <Version>1.0.32.96</Version>
@@ -729,7 +737,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="12">
             <Date>04-29-2016</Date>
             <Version>1.0.28.89</Version>
@@ -737,7 +745,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="11">
             <Date>04-10-2016</Date>
             <Version>1.0.27.71</Version>
@@ -745,7 +753,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="10">
             <Date>03-31-2016</Date>
             <Version>1.0.26.125</Version>
@@ -753,7 +761,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Update>
-
+        
         <Update release="9">
             <Date>03-31-2016</Date>
             <Version>1.0.26.125</Version>
@@ -761,7 +769,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="8">
             <Date>03-13-2016</Date>
             <Version>1.0.25.127</Version>
@@ -769,7 +777,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="7">
             <Date>02-20-2016</Date>
             <Version>1.0.23.93</Version>
@@ -777,7 +785,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="6">
             <Date>02-20-2016</Date>
             <Version>1.0.23.93</Version>
@@ -785,7 +793,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="5">
             <Date>02-19-2016</Date>
             <Version>1.0.23.93</Version>
@@ -793,7 +801,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="4">
             <Date>02-19-2016</Date>
             <Version>1.0.23.93</Version>
@@ -801,7 +809,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="3">
             <Date>02-19-2016</Date>
             <Version>1.0.23.93</Version>
@@ -809,7 +817,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="2">
             <Date>01-21-2016</Date>
             <Version>1.0.19.106</Version>
@@ -817,7 +825,7 @@
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
         </Update>
-
+        
         <Update release="1">
             <Date>01-12-2016</Date>
             <Version>1.0.19.106</Version>
