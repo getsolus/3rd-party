@@ -11,7 +11,6 @@
         <Description>Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.</Description>
         <License>Copyright (c) 2006-2010 Spotify Ltd.</License>
         <Archive sha1sum="c61d8978ad842181e230e8a23385d6c9bacd50da" type="binary">https://repository-origin.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.95.453.g0eeebbed_amd64.deb</Archive>
-        
         <BuildDependencies>
             <Dependency>binutils</Dependency>
             <Dependency>libxscrnsaver</Dependency>
@@ -42,7 +41,7 @@
             <Name>Lucas Victor</Name>
             <Email>lucasvictor999@outlook.com.br</Email>
         </Update>
-        
+     
         <Update release="99">
             <Date>07-11-2026</Date>
             <Version>1.2.92.147</Version>
