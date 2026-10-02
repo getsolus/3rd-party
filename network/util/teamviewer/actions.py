@@ -18,8 +18,10 @@ def install():
     pisitools.insinto("/usr/", "./usr/*")
     pisitools.insinto("/etc/systemd/system", "./opt/teamviewer/tv_bin/script/teamviewerd.service")
 
-    # Remove outaded/incompatible qt libs
+    # Remove outaded/incompatible qt libs, but keep Qt5 WebEngine, which is no longer available as a native Solus package
     pisitools.removeDir("/opt/teamviewer/tv_bin/RTlib/qt/lib")
+    pisitools.dodir("/opt/teamviewer/tv_bin/RTlib/qt/lib")
+    pisitools.insinto("/opt/teamviewer/tv_bin/RTlib/qt/lib", "./opt/teamviewer/tv_bin/RTlib/qt/lib/libQt5WebEngine*")
 
     #necessary symlinks
     pisitools.dosym("/etc/systemd/system/teamviewerd.service", "/etc/systemd/system/multi-user.target.wants/teamviewerd.service")
