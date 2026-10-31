@@ -12,7 +12,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Android development environment based on IntelliJ IDEA.</Summary>
         <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <Archive sha1sum="86276d947d569de570d85d5a757f6d6854585e02" type="targz">https://dl.google.com/android/studio/ide-zips/2026.2.1.8/android-studio-rabbit1-linux.tar.gz</Archive>
+        <Archive sha1sum="b1425ebd083d7d4e01e30275b4733cdc39020476" type="targz">https://dl.google.com/android/studio/ide-zips/2026.2.2.8/android-studio-rabbit2-linux.tar.gz</Archive>
     </Source>
     <Package>
         <Name>android-studio</Name>
@@ -36,6 +36,14 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="100">
+            <Date>10-31-2026</Date>
+            <Version>2026.2.2.8</Version>
+            <Comment>Update to 2026.2.2.8</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="99">
             <Date>10-02-2026</Date>
             <Version>2026.2.1.8</Version>
