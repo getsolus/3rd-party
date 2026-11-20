@@ -11,7 +11,7 @@
         <Summary>The web browser from Google</Summary>
         <Description> Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <License>EULA</License>
-        <Archive sha1sum="56ab59e169514657feb70a7d82fc99bddc9a049b" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_159.0.8130.0-1_amd64.deb</Archive>
+        <Archive sha1sum="705665bb094f06b231bb64ebe17e9c7d5d12a260" type="binary">https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_160.0.8157.0-1_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
@@ -29,19 +29,28 @@
         <Name>google-chrome-unstable</Name>
         <Icon>google-chrome</Icon>
         <Files>
+            <Path fileType="executable">/opt/google/chrome-unstable</Path>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="data">/usr/share/appdata</Path>
             <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/gnome-control-center</Path>
             <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="data">/usr/share/metainfo/</Path>
             <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/gnome-control-center</Path>
-            <Path fileType="data">/usr/share/menu</Path>
-            <Path fileType="executable">/opt/google/chrome-unstable</Path>
         </Files>
     </Package>
 
     <History>
+        <Update release="514">
+            <Date>11-20-2026</Date>
+            <Version>160.0.8157.0</Version>
+            <Comment>Update to 160.0.8157.0</Comment>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
+        </Update>
+
         <Update release="513">
             <Date>10-31-2026</Date>
             <Version>159.0.8130.0</Version>
